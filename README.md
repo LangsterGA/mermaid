@@ -6,6 +6,6 @@
     B-->A
     B -->|Raw| C["Parse API output (JSON) to csvs"];
     C-.->|Summary| D[Summarize raw into SITREP output <br/> csvs & FGDB]; 
-    D-.->|Join| E[Join summary output to GIS layer];
+    D-.->|Join to GIS| E[Create SITREP GIS layers];
  ```
 
