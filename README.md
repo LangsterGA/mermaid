@@ -3,7 +3,7 @@ Testing out Github
 Hoping I can finish this course this month!
 
 ## Diagram
-'''mermaid
+```mermaid
 flowchart TD
     A[Go.Data server]--> B{ArcGIS Pro SITREP Toolbox};
     B -- Raw -->C[Extract raw API to csv];
@@ -11,4 +11,11 @@ flowchart TD
     C --> E[Join to geography];
     F --> G[summary csvs, FGDB features (contacts, cases, follow-ups, deaths);
     
-    '''
+```
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
