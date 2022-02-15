@@ -4,6 +4,6 @@
   graph TD
     A[Go.Data server]--> B{ArcGIS Pro SITREP Toolbox <br/> Extract case & contact data<br/>via APIs};
     B-->A
-    B -->|Raw| C[Extract raw API to csv];
+    B -->|Raw| C[Parse API output to csvs];
 ```
 
